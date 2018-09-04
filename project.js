@@ -1,7 +1,7 @@
 let projects = [
     {   
         title: "Cool Project", 
-        screenshot: "<img src='http://gotoflashgames.com/files/file/033.jpg'>", 
+        screenshot: "<img class='projectImg' src='http://gotoflashgames.com/files/file/033.jpg'>", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -11,7 +11,7 @@ let projects = [
 
     {   
         title: "Cool Project", 
-        screenshot: "<img src='http://gotoflashgames.com/files/file/033.jpg'>", 
+        screenshot: "<img class='projectImg' src='http://gotoflashgames.com/files/file/033.jpg'>", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: false,
@@ -20,7 +20,7 @@ let projects = [
     },  
     {   
         title: "Cool Project", 
-        screenshot: "<img src='http://gotoflashgames.com/files/file/033.jpg'>", 
+        screenshot: "<img class='projectImg' src='http://gotoflashgames.com/files/file/033.jpg'>", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
