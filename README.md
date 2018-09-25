@@ -19,4 +19,4 @@
 <br>
 
 ### Screenshot
-<img src='screenshot_part1'>
+<img src='screenshot_part1.png'>
