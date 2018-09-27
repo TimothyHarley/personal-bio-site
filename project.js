@@ -1,3 +1,31 @@
+//NavBar Variables
+const toBio = document.getElementById('navToBio');
+const toTech = document.getElementById('navToTechnologies');
+const toProjects = document.getElementById('navToProjects');
+const bioPage = document.getElementById('bioPage');
+const technologiesPage = document.getElementById('technologiesPage');
+const projectsPage = document.getElementById('projectsPage');
+
+// NavBar Event Listeners
+toBio.addEventListener('click', (e) => {
+    bioPage.style.display = 'block';
+    technologiesPage.style.display = 'none';
+    projectsPage.style.display = 'none';
+})
+
+toTech.addEventListener('click', (e) => {
+    bioPage.style.display = 'none';
+    technologiesPage.style.display = 'block';
+    projectsPage.style.display = 'none';
+})
+
+toProjects.addEventListener('click', (e) => {
+    bioPage.style.display = 'none';
+    technologiesPage.style.display = 'none';
+    projectsPage.style.display = 'block';
+})
+
+//Projects Page Array
 let projects = [
     {   
         title: "Cool Project", 
