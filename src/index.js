@@ -64,8 +64,6 @@ const createProjectCards = (arrayOfProjects) => {
 const initProjects = () => {
   getProjects().then((arrayOfProjects) => {
     createProjectCards(arrayOfProjects);
-  }).catch((error) => {
-    console.error(error);
   });
 };
 
