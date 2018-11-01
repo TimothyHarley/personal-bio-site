@@ -32,27 +32,41 @@ toProjects.addEventListener('click', () => {
   projectsPage.style.display = 'block';
 });
 
-const writeToDom = (stringToPrint, divId) => {
-  const selectedDiv = document.getElementById(divId);
-  selectedDiv.innerHTML = stringToPrint;
+const getProjects = () => {
+  return new Promise((resolve, reject) => {
+    $.get('../db/Projects.json')
+      .done((data) => {
+        resolve(data.projects);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
 };
 
-const createProjectCards = () => {
+const createProjectCards = (arrayOfProjects) => {
   let newString = '';
-  for (let i = 0; i < projects.length; i) {
-    if (projects[i].available === true) {
+  arrayOfProjects.forEach((project) => {
+    if (project.available === true) {
       newString += ''`<div id='projectsPage'>`;
-      newString += `<h3>${projects[i].title}<h3>`;
-      newString += `<h3>${projects[i].screenshot}<h3>`;
-      newString += `<h3>${projects[i].description}<h3>`;
-      newString += `<h3>${projects[i].technologiesUsed}<h3>`;
-      newString += `<h3>${projects[i].url}<h3>`;
-      newString += `<h3>${projects[i].githubUrl}<h3>`;
+      newString += `<h3>${project.title}<h3>`;
+      newString += `<h3>${project.screenshot}<h3>`;
+      newString += `<h3>${project.description}<h3>`;
+      newString += `<h3>${project.technologiesUsed}<h3>`;
+      newString += `<h3>${project.url}<h3>`;
+      newString += `<h3>${project.githubUrl}<h3>`;
       newString += ''`</div>`;
     }
-
-    writeToDom(newString, 'projectsPage');
-  }
+  });
+  $('#projectsPage').html(newString);
 };
 
-createProjectCards();
+const initProjects = () => {
+  getProjects().then((arrayOfProjects) => {
+    createProjectCards(arrayOfProjects);
+  }).catch((error) => {
+    console.error(error);
+  })
+};
+
+initProjects();
