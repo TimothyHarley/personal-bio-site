@@ -33,7 +33,7 @@ toProjects.addEventListener('click', () => {
 });
 
 const getProjects = () => {
-  return new Promise((resolve, reject) => {
+  Promise((resolve, reject) => {
     $.get('../db/Projects.json')
       .done((data) => {
         resolve(data.projects);
@@ -66,7 +66,7 @@ const initProjects = () => {
     createProjectCards(arrayOfProjects);
   }).catch((error) => {
     console.error(error);
-  })
+  });
 };
 
 initProjects();
