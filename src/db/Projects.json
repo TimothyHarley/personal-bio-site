@@ -1,0 +1,31 @@
+{
+	"projects": [{
+			"title": "Cool Project",
+			"screenshot": "this is not an image yet",
+			"description": "This is the coolest project.  The What, the why, the how.",
+			"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+			"available": true,
+			"url": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>URL</a>",
+			"githubUrl": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>Github URL</a>"
+		},
+
+		{
+			"title": "Cool Project",
+			"screenshot": "this is not an image yet",
+			"description": "This is the coolest project.  The What, the why, the how.",
+			"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+			"available": false,
+			"url": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>URL</a>",
+			"githubUrl": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>Github URL</a>"
+		},
+		{
+			"title": "Cool Project",
+			"screenshot": "this is not an image yet",
+			"description": "This is the coolest project.  The What, the why, the how.",
+			"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+			"available": true,
+			"url": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>URL</a>",
+			"githubUrl": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>Github URL</a>"
+		}
+	]
+}
