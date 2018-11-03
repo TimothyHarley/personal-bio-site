@@ -32,17 +32,16 @@ toProjects.addEventListener('click', () => {
   projectsPage.style.display = 'block';
 });
 
-const getProjects = () => {
-  Promise((resolve, reject) => {
-    $.get('../db/Projects.json')
-      .done((data) => {
-        resolve(data.projects);
-      })
-      .fail((error) => {
-        reject(error);
-      });
-  });
-};
+const getProjects = new Promise((resolve, reject) => {
+  $.get('../db/Projects.json')
+    .done((data) => {
+      resolve(data.projects);
+    })
+    .fail((error) => {
+      reject(error);
+    });
+});
+
 
 const createProjectCards = (arrayOfProjects) => {
   let newString = '';
