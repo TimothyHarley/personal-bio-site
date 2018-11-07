@@ -1,14 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-     background-color: rgb(184, 243, 219);
+     background-color:#393853;
      font-family: Arial, Helvetica, sans-serif;
-    
+     color: rgb(184, 243, 219);
 }
 nav {
      display: flex;
-     background-color: green;
-     color: lightcyan;
+     background-color: #FFC1C4;
+     color: rgb(184, 243, 219);
      padding-left: 25px;
      justify-content: space-between;
 }
@@ -29,16 +29,3 @@ nav {
      
  }
  
- .projectImg {
-     background-color: lightcyan;
-     /* border: 1px solid seagreen; */
-     border-radius: 50%;
-     width: 200px;
-     padding: 5px;
-     transition: transform .75s ease,
-                 background-color .5s ease;
- }
- .projectImg:hover {
-     transform: scale(1.1);
-     background-color: rgb(184, 243, 219);
- }
