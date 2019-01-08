@@ -5,33 +5,10 @@ import axios from 'axios';
 
 import navbar from './components/navbar/navbar';
 import mountains from './images/mountains.png';
+import bioPage from './components/bioPage/bioPage';
+import footer from './components/footer/footer';
 
 $('#mountains').attr('src', mountains);
-
-// NavBar Variables
-// const toBio = document.getElementById('navToBio');
-const bioPage = document.getElementById('bioPage');
-const technologiesPage = document.getElementById('technologiesPage');
-const projectsPage = document.getElementById('projectsPage');
-
-// NavBar Event Listeners
-$('#navToBio').on('click', () => {
-  bioPage.style.display = 'block';
-  technologiesPage.style.display = 'none';
-  projectsPage.style.display = 'none';
-});
-
-$('#navToTechnologies').on('click', () => {
-  bioPage.style.display = 'none';
-  technologiesPage.style.display = 'block';
-  projectsPage.style.display = 'none';
-});
-
-$('#navToProjects').on('click', () => {
-  bioPage.style.display = 'none';
-  technologiesPage.style.display = 'none';
-  projectsPage.style.display = 'block';
-});
 
 const getProjects = () => axios.get('http://localhost:3004/projects');
 
@@ -72,6 +49,8 @@ getProjects()
 
 const initializeApp = () => {
   navbar();
+  bioPage();
+  footer();
 };
 
 initializeApp();

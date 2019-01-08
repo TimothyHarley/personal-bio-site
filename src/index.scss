@@ -1,9 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 
+$iMightUseLater: rgb(60, 37, 73);
+
 body {
      background-color:#393853;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: 'Lato', sans-serif;
      color: rgb(184, 243, 219);
+     overscroll-behavior: none;
 }
 
  #navLinks {
