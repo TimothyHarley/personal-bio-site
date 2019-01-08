@@ -3,6 +3,7 @@ import 'bootstrap';
 import './index.scss';
 import axios from 'axios';
 
+import navbar from './components/navbar/navbar';
 import mountains from './images/mountains.png';
 
 $('#mountains').attr('src', mountains);
@@ -68,3 +69,9 @@ getProjects()
   .catch((error) => {
     console.error({ error });
   });
+
+const initializeApp = () => {
+  navbar();
+};
+
+initializeApp();
