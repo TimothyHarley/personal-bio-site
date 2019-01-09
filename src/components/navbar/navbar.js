@@ -4,16 +4,15 @@ import './navbar.scss';
 const navbarEvents = () => {
   $('.nav-link').on('click', (e) => {
     if (e.target.id === 'bioButton') {
-      $('#bioPage').show();
+      $('#bioPage').children().show();
       $('#technologiesPage').hide();
       $('#projectsPage').hide();
-      $('#bioPage').parent().addClass('active');
     } else if (e.target.id === 'techButton') {
-      $('#bioPage').hide();
+      $('#bioPage').children().hide();
       $('#technologiesPage').show();
       $('#projectsPage').hide();
     } else if (e.target.id === 'projectsButton') {
-      $('#bioPage').hide();
+      $('#bioPage').children().hide();
       $('#technologiesPage').hide();
       $('#projectsPage').show();
     }

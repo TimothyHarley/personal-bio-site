@@ -6,6 +6,7 @@ import axios from 'axios';
 import navbar from './components/navbar/navbar';
 import mountains from './images/mountains.png';
 import bioPage from './components/bioPage/bioPage';
+import techPage from './components/techPage/techPage';
 import footer from './components/footer/footer';
 
 $('#mountains').attr('src', mountains);
@@ -50,6 +51,7 @@ getProjects()
 const initializeApp = () => {
   navbar();
   bioPage();
+  techPage();
   footer();
 };
 
