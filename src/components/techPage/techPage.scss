@@ -1,0 +1,21 @@
+#technologiesPage {
+  text-align: center;
+
+  .iconBox {
+    width: 71%;
+    margin: 50px;
+
+    ul {
+      margin-bottom: 50px;
+
+      li {
+        margin: 20px;
+
+        img {
+          width: 128px;
+          height: auto;
+        }
+      }
+    }
+  }
+}

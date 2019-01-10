@@ -3,49 +3,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tim Harley's Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Timothy Harley's Page</title>
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav>
-    <h1>My Name is Tim.  This is my website.</h1>
-    <ul id="navLinks">
-      <li><a class="navTo" id="navToBio">Biography</a></li>
-      <li><a class="navTo" id="navToTechnologies">Technologies</a></li>
-      <li><a class="navTo" id="navToProjects">Projects</a></li>
-    </ul>
-  </nav>
-  <!-- End Navigation -->
+  <div id="navbar"></div>
   <img id='mountains' class="img-fluid max-width: 100%" alt="Responsive image">
   <!-- Primary View -->
-  <div class="fullPage" id="bioPage" style="display:block">
-    <p>I have worked in a bakery making donuts for 10 years.  The best part of the job is that at the end of the day, I can step back and admire the work I've finished.  The worst part of the job is that I've peaked.  
-        There wasn't anything left for me to learn.  I learned a little coding recreationly and quickly found that I enjoyed it.  Just like 
-        cooking I could admire my finished product.  Unlike working in a bakery, however, I could continue to learn and discover new things indefinatly in software coding.  I decided it was time for a career change. </p>
-  </div>
-  <div class="fullPage" id="technologiesPage" style="display:none">
-    <!-- tools and technologies I've started learning so far. (I'll beef this page up later). -->
-    <ul>
-        <li>html</li>
-        <li>css</li>
-        <li>git</li>
-        <li>JavaScript</li>
-        <li>GitHub</li>
-    </ul>
-  </div> 
-  <div class="fullPage" id="projectsPage" style="display:none"></div>
+  <div id="bioPage" class="container d-flex flex-row" style="display:none"></div>
+  <div id="technologiesPage" class="fullPage" style="display:none"></div> 
+  <div id="projectsPage" class="fullPage" style="display:none"></div>
   <!-- End Primary View -->
 
-  <!-- Footer -->
-  <footer class="page-footer">
-    <ul>
-        <li><a href="mailto:Timothy.D.Harley@gmail.com">Email Me</a></li>
-        <li><a href="https://www.linkedin.com/in/tim-harley-a4953b141/">Linkedin</a></li>
-        <li><a href="http://www.twitter.com">Twitter</a>(I dont have a twitter account yet)</li>
-        <li><a href="https://github.com/TimothyHarley">GitHub</a></li>
-    </ul>
-  </footer>
-  <!-- End Footer -->
+  <footer id="contact"></footer>
 </body>
 </html>
