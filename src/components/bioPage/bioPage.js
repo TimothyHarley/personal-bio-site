@@ -3,8 +3,10 @@ import './bioPage.scss';
 import timAndLogan from '../../images/timAndLogan.jpg';
 
 const createBioPage = () => {
-  $('#timAndLogan').attr('src', timAndLogan);
   const domString = `
+  <div class="col-6">
+    <img id="timAndLogan" class="img-fluid max-width: 100% shadow" alt="Tim and Logan">
+  </div>
   <div class="col-6">
     <p class="indented">For the past decade, I have been a cook at Nashville's famous Donut Den.  The best part of that job is that at the end of the day, I can step back and admire the work I've finished.  The worst part of that job is that I've peaked.  
     There wasn't anything left for me to learn.  I learned a little coding recreationly and quickly found that I enjoyed it.  Just like 
@@ -14,7 +16,8 @@ const createBioPage = () => {
     However, at Nashville Software School, I'm learning to be better about asking for help asking when I'm stuck.</p>
   </div>
   `;
-  $('#bioPage').append(domString);
+  $('#bioPage').html(domString);
+  $('#timAndLogan').attr('src', timAndLogan);
 };
 
 export default createBioPage;

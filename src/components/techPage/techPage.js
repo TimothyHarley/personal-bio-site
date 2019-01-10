@@ -17,20 +17,24 @@ const createTechPage = () => {
   const domString = `
   <div>
     <h3>These are some of the tools and Technologies that I've learned to use at Nashville Software School</h3>
-    <ul class='nav text-center'>
-        <li><img id='html' /><br>html</li>
-        <li><img id='css' /><br>css</li>
-        <li><img id='sass' /><br>Sass</li>
-        <li><img id='bootstrap' /><br>Bootstrap</li>
-        <li><img id='javascript' /><br>JavaScript</li>
-        <li><img id='jquery' /><br>JQuery</li>
-        <li><img id='reddit' /><br>Reddit</li>
-        <li><img id='npm' /><br>NPM</li>
-        <li><img id='firebase' /><br>Firebase</li>
-        <li><img id='react' /><br>React</li>
-        <li><img id='github' /><br>GitHub</li>
-        <li><img id='webpack' /><br>Webpack</li>
-    </ul>
+      <div class='iconBox mx-auto'>
+        <ul class='nav text-center'>
+          <li><img id='html' /><br>html</li>
+          <li><img id='sass' /><br>Sass</li>
+          <li><img id='bootstrap' /><br>Bootstrap</li>
+          <li><img id='javascript' /><br>JavaScript</li>
+          <li><img id='jquery' /><br>JQuery</li>
+          <li><img id='react' /><br>React</li>          
+        </ul>
+        <ul class='nav text-center'>
+          <li><img id='npm' /><br>NPM</li>
+          <li><img id='firebase' /><br>Firebase</li>
+          <li><img id='css' /><br>css</li>
+          <li><img id='reddit' /><br>Reddit</li>
+          <li><img id='github' /><br>GitHub</li>
+          <li><img id='webpack' /><br>Webpack</li>
+        </ul>
+      </div>
   </div>
   `;
   $('#technologiesPage').html(domString);

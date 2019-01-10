@@ -5,7 +5,7 @@ const createFooter = () => {
   const domString = `
   <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" href="mailto:Timothy.D.Harley@gmail.com">Email Me</a>
+    <a class="nav-link active" href="mailto:Timothy.D.Harley@gmail.com">Email</a>
   </li>
   <li class="nav-item">
     <a class="nav-link active" href="https://www.linkedin.com/in/tim-harley-a4953b141/">Linkedin</a>

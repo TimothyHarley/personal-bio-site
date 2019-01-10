@@ -37,6 +37,9 @@ const createNavbar = () => {
         <li class="nav-item active">
           <a class="nav-link" id="projectsButton" href="#projectsPage">Projects</a>
         </li>
+        <li class="nav-item active">
+          <a class="nav-link" id="contactButton" href="#contact">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
