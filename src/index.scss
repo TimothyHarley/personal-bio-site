@@ -9,20 +9,23 @@ body {
      overscroll-behavior: none;
 }
 
- #navLinks {
-     display: flex;
-     list-style: none;
-     flex-wrap: wrap;
-     margin-top: 25px;
-
- }
- .navTo {
-     margin: 15px;
-     padding: 10px;
-     border-radius: 8px;
-     background-color: seagreen;
-     box-shadow: 2px 2px rgb(37, 112, 70);
-     box-sizing: border-box;
-     
- }
- 
+ .parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .parallax__layer--base {
+    transform: translateZ(0);
+    margin-top: -7px;
+  }
+  .parallax__layer--back {
+    transform: translateZ(-1px) scale(2);
+  }
