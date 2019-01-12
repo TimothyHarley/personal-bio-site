@@ -1,28 +1,42 @@
 @import "~bootstrap/scss/bootstrap";
 
-$iMightUseLater: rgb(60, 37, 73);
 
 body {
      background-color:#393853;
      font-family: 'Lato', sans-serif;
-     color: rgb(184, 243, 219);
+     color: lightgray;
      overscroll-behavior: none;
 }
 
- #navLinks {
-     display: flex;
-     list-style: none;
-     flex-wrap: wrap;
-     margin-top: 25px;
+ .parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
 
- }
- .navTo {
-     margin: 15px;
-     padding: 10px;
-     border-radius: 8px;
-     background-color: seagreen;
-     box-shadow: 2px 2px rgb(37, 112, 70);
-     box-sizing: border-box;
-     
- }
- 
+  .parallax__layer--5 {
+    transform: translateZ(0);
+  }
+
+  .parallax__layer--4 {
+    transform: translateZ(-1px) scale(2);
+  }
+  
+  .parallax__layer--3 {
+    transform: translateZ(-2px) scale(3);
+  }
+
+  .parallax__layer--2 {
+    transform: translateZ(-3px) scale(4);
+  }
+  .parallax__layer--1 {
+    transform: translateZ(-4px) scale(5);
+  }
