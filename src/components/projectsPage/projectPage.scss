@@ -1,0 +1,20 @@
+#projectsPage {
+  .row{
+    width: 100%;
+  }
+  .card {
+    background-color: rgb(126, 121, 167);
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    margin: 10px 5px 0px 5px;
+    overflow: scroll;
+
+    a {
+      color: darkgray;
+    }
+    li {
+      background-color: darkgrey
+    }
+  }
+}
