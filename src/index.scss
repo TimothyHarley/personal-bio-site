@@ -22,10 +22,22 @@ body {
     bottom: 0;
     left: 0;
   }
-  .parallax__layer--base {
+
+  .parallax__layer--5 {
     transform: translateZ(0);
-    margin-top: -7px;
   }
-  .parallax__layer--back {
+
+  .parallax__layer--4 {
     transform: translateZ(-1px) scale(2);
+  }
+  
+  .parallax__layer--3 {
+    transform: translateZ(-2px) scale(3);
+  }
+
+  .parallax__layer--2 {
+    transform: translateZ(-3px) scale(4);
+  }
+  .parallax__layer--1 {
+    transform: translateZ(-4px) scale(5);
   }
