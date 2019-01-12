@@ -3,7 +3,7 @@ import './projectPage.scss';
 import getProjects from '../../helpers/projectRequest';
 
 const createProjectsPage = (projects) => {
-  let domString = '<div class="d-flex flex-row flex-wrap mx-auto" style="width: 80%">';
+  let domString = '<div class="d-flex flex-row flex-wrap mx-auto" style="width: 76%">';
 
   projects.forEach((project) => {
     if (project.available === true) {
@@ -22,7 +22,6 @@ const createProjectsPage = (projects) => {
           </li>
         </ul>
         <div class="card-body">
-          <a href="${project.url}" class="card-link">Project link</a>
           <a href="${project.githubUrl}" class="card-link">Github Link</a>
         </div>
       </div>
