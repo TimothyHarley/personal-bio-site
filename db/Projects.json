@@ -11,7 +11,7 @@
 		},
 		"project2": {
 			"title": "Translator",
-			"screenshot": "src/images/translatorScreenshot.png",
+			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/personal-bio-site/master/src/images/translatorScreenshot.png",
 			"description": "This app will translate a select few words from Spanish, French, or Italian.  It uses a function and a for loop for each language.",
 			"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
 			"available": true,
@@ -22,10 +22,19 @@
 			"title": "Nutshell",
 			"screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-8/nutshell-pecans/master/src/images/ss4.png",
 			"description": "The Nutshell project is everything we Learned up to that point in a nutshell.  It was a group project where every one wrote one of the features.  I wrote the messages section.",
-			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Firebase, webpack and npm.",
+			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Json, Firebase, webpack and npm.",
 			"available": true,
 			"url": "https://github.com/nss-evening-cohort-8/nutshell-pecans",
 			"githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-pecans"
+		},
+		"project4": {
+			"title": "Thrones",
+			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/Thrones/master/Images/Screenshot.png",
+			"description": "This was app was a code-a-long we did in class.  We did this as an example project for using Json, and modulated javascript components.  The app allows users to sort characters by house and click on a character for an expanded view.",
+			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Jason, Firebase, webpack and npm.",
+			"available": true,
+			"url": "https://github.com/TimothyHarley/Thrones",
+			"githubUrl": "https://github.com/TimothyHarley/Thrones"
 		}
 	}
 }
