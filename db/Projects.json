@@ -1,29 +1,31 @@
 {
-	"project1": {
-		"title": "Cool Project",
-		"screenshot": "this is not an image yet",
-		"description": "This is the coolest project.  The What, the why, the how.",
-		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-		"available": true,
-		"url": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>URL</a>",
-		"githubUrl": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>Github URL</a>"
-	},
-	"project2": {
-		"title": "Cool Project",
-		"screenshot": "this is not an image yet",
-		"description": "This is the coolest project.  The What, the why, the how.",
-		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-		"available": false,
-		"url": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>URL</a>",
-		"githubUrl": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>Github URL</a>"
-	},
-	"project3": {
-		"title": "Cool Project",
-		"screenshot": "this is not an image yet",
-		"description": "This is the coolest project.  The What, the why, the how.",
-		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-		"available": true,
-		"url": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>URL</a>",
-		"githubUrl": "<a href='https://github.com/nss-evening-cohort-8/js-part-deux'>Github URL</a>"
+	"projects": {
+		"project1": {
+			"title": "Sorting Hat",
+			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/sorting-hat/master/screenshot.png",
+			"description": "This app sorts names from an input into one of four Hogwarts Houses.  It ueses a random number generater to assign each name to a number, and each number to a house.  Then it builds a card to display the data.",
+			"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap, Version Control with Github",
+			"available": true,
+			"url": "https://github.com/TimothyHarley/sorting-hat",
+			"githubUrl": "https://github.com/TimothyHarley/sorting-hat"
+		},
+		"project2": {
+			"title": "Translator",
+			"screenshot": "src/images/translatorScreenshot.png",
+			"description": "This app will translate a select few words from Spanish, French, or Italian.  It uses a function and a for loop for each language.",
+			"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+			"available": true,
+			"url": "https://github.com/TimothyHarley/translator",
+			"githubUrl": "https://github.com/TimothyHarley/translator"
+		},
+		"project3": {
+			"title": "Nutshell",
+			"screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-8/nutshell-pecans/master/src/images/ss4.png",
+			"description": "The Nutshell project is everything we Learned up to that point in a nutshell.  It was a group project where every one wrote one of the features.  I wrote the messages section.",
+			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Firebase, webpack and npm.",
+			"available": true,
+			"url": "https://github.com/nss-evening-cohort-8/nutshell-pecans",
+			"githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-pecans"
+		}
 	}
 }
