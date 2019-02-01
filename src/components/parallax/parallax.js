@@ -1,11 +1,11 @@
 import $ from 'jquery';
 import './parallax.scss';
 
-import parallax1 from '../../images/parallax/Background1.png';
-import parallax2 from '../../images/parallax/Background2.png';
-import parallax3 from '../../images/parallax/Background3.png';
-import parallax4 from '../../images/parallax/Background4.png';
-import parallax5 from '../../images/parallax/Background5.png';
+import parallax1 from '../../images/parallax/NEWBackground1.png';
+import parallax2 from '../../images/parallax/NEWBackground2.png';
+import parallax3 from '../../images/parallax/NEWBackground3.png';
+import parallax4 from '../../images/parallax/NEWBackground4.png';
+import parallax5 from '../../images/parallax/NEWBackground5.png';
 import mountains from '../../images/mountains.png';
 
 const createParallax = () => {
