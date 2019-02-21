@@ -35,6 +35,15 @@
 			"available": true,
 			"url": "https://github.com/TimothyHarley/Thrones",
 			"githubUrl": "https://github.com/TimothyHarley/Thrones"
+		},
+		"project5": {
+			"title": "Life Experience",
+			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/life-experience/master/src/images/Screenshot.png",
+			"description": "This project is my front-end capstone.  It gives the user a list of healthy habits from five different categories.  Each habit completed rewards experience points.  Get enough experience points in a category, and the user levels up.",
+			"technologiesUsed": "React, HTML, CSS, Jquery, Version Control with Github, Jason, Firebase, webpack and npm.",
+			"available": true,
+			"url": "https://github.com/TimothyHarley/life-experience",
+			"githubUrl": "https://github.com/TimothyHarley/life-experience"
 		}
 	}
 }
