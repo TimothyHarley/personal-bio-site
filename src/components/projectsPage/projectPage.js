@@ -8,21 +8,29 @@ const createProjectsPage = (projects) => {
   projects.forEach((project) => {
     if (project.available === true) {
       domString += `
-    <div class="extraDiv">  
-      <div class="card">
-        <img class="card-img-top" src="${project.screenshot}" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">${project.title}</h5>
-          <p class="card-text">${project.description}</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <div>Technologies Used:</div>
-            ${project.technologiesUsed}
-          </li>
-        </ul>
-        <div class="card-body">
-          <a href="${project.githubUrl}" class="card-link">Github Link</a>
+    <div class="extraDiv">
+      <img src="${project.screenshot}" class="btn project-thumbnail" type="button" data-toggle="modal" data-target="#${project.id}" alt="${project.title}" />
+      <div class="modal" id="${project.id}" tabindex="-1" role="dialog" aria-labelledby="${project.title}" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">${project.title}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="project-image" src="${project.screenshot}" alt="${project.title}" />
+              <p class="project-description">${project.description}</p>
+            </div>
+            <div class="modal-footer">
+              <p><strong>Technologies used on this project:</strong><br> ${project.technologiesUsed}</p>
+            </div>
+            <div class="modal-footer">
+              <a class="github-link btn" href="${project.githubUrl}" target="_blank" role="button">GitHub</a>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>`;

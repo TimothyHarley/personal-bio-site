@@ -1,7 +1,36 @@
 #projectsPage {
   padding-top: 60px;
 
-  .row{
+  .project-thumbnail {
+    max-width: 350px;
+    height: auto;
+    -webkit-appearance: none;
+  }
+
+  .modal-content {
+    margin-top: 75px;
+    text-align: center;
+    background-color: rgb(126, 121, 167);
+    color: white;
+
+    .project-description {
+      text-align: left;
+    }
+
+    .project-image {
+      max-width: 466px;
+      height: auto;
+      margin-bottom: 20px;
+    }  
+
+    .github-link {
+      background-color: #2C293A;
+      color: white;
+    }
+  }
+
+
+  .row {
     width: 100%;
     
   }
@@ -22,4 +51,9 @@
       color: black;
     }
   }
+}
+
+.modal-backdrop {
+  /* bug fix - no overlay */    
+  display: none;    
 }
