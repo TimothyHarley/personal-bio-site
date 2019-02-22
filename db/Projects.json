@@ -1,6 +1,6 @@
 {
 	"projects": {
-		"project1": {
+		"project3": {
 			"title": "Sorting Hat",
 			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/sorting-hat/master/screenshot.png",
 			"description": "This app sorts names from an input into one of four Hogwarts Houses.  It ueses a random number generater to assign each name to a number, and each number to a house.  Then it builds a card to display the data.",
@@ -9,7 +9,7 @@
 			"url": "https://github.com/TimothyHarley/sorting-hat",
 			"githubUrl": "https://github.com/TimothyHarley/sorting-hat"
 		},
-		"project2": {
+		"project4": {
 			"title": "Translator",
 			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/personal-bio-site/master/src/images/translatorScreenshot.png",
 			"description": "This app will translate a select few words from Spanish, French, or Italian.  It uses a function and a for loop for each language.",
@@ -18,7 +18,7 @@
 			"url": "https://github.com/TimothyHarley/translator",
 			"githubUrl": "https://github.com/TimothyHarley/translator"
 		},
-		"project3": {
+		"project2": {
 			"title": "Nutshell",
 			"screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-8/nutshell-pecans/master/src/images/ss4.png",
 			"description": "The Nutshell project is everything we Learned up to that point in a nutshell.  It was a group project where every one wrote one of the features.  I wrote the messages section.",
@@ -27,7 +27,7 @@
 			"url": "https://github.com/nss-evening-cohort-8/nutshell-pecans",
 			"githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-pecans"
 		},
-		"project4": {
+		"project5": {
 			"title": "Thrones",
 			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/Thrones/master/Images/Screenshot.png",
 			"description": "This was app was a code-a-long we did in class.  We did this as an example project for using Json, and modulated javascript components.  The app allows users to sort characters by house and click on a character for an expanded view.",
@@ -35,6 +35,15 @@
 			"available": true,
 			"url": "https://github.com/TimothyHarley/Thrones",
 			"githubUrl": "https://github.com/TimothyHarley/Thrones"
+		},
+		"project1": {
+			"title": "Life Experience",
+			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/life-experience/master/src/images/Screenshot.png",
+			"description": "This project is my front-end capstone.  It gives the user a list of healthy habits from five different categories.  Each habit completed rewards experience points.  Get enough experience points in a category, and the user levels up.",
+			"technologiesUsed": "React, HTML, CSS, Jquery, Version Control with Github, Jason, Firebase, webpack and npm.",
+			"available": true,
+			"url": "https://github.com/TimothyHarley/life-experience",
+			"githubUrl": "https://github.com/TimothyHarley/life-experience"
 		}
 	}
 }

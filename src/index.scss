@@ -2,7 +2,7 @@
 
 
 body {
-     background-color:#393853;
+    background-color: #2C293A;
      font-family: 'Lato', sans-serif;
      color: lightgray;
      overscroll-behavior: none;
@@ -40,3 +40,8 @@ body {
   .parallax__layer--1 {
     transform: translateZ(-4px) scale(5);
   }
+
+  #contact {
+    margin-top: 400px;
+    text-align: center;
+}
