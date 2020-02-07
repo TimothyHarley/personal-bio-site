@@ -1,11 +1,11 @@
 import $ from 'jquery';
 import './bioPage.scss';
-import timAndLogan from '../../images/timAndLogan.jpg';
+import timHeadshot from '../../images/timOfficial.jpg';
 
 const createBioPage = () => {
   const domString = `
   <div class="col-6">
-    <img id="timAndLogan" class="img-fluid max-width: 100% shadow" alt="Tim and Logan">
+    <img id="timHeadshot" class="img-fluid max-width: 100% shadow" alt="Tim">
   </div>
   <div class="col-6">
     <p class="indented">For the past decade, I have been a cook at Nashville's famous Donut Den.  The best part of that job is that at the end of the day, I can step back and admire the work I've finished.  The worst part of that job is that I've peaked.  
@@ -18,7 +18,7 @@ const createBioPage = () => {
   </div>
   `;
   $('#bioPage').html(domString);
-  $('#timAndLogan').attr('src', timAndLogan);
+  $('#timHeadshot').attr('src', timHeadshot);
 };
 
 export default createBioPage;
