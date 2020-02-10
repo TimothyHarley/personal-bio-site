@@ -22,28 +22,37 @@
 			"title": "Nutshell",
 			"screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-8/nutshell-pecans/master/src/images/ss4.png",
 			"description": "The Nutshell project is everything we Learned up to that point in a nutshell.  It was a group project where every one wrote one of the features.  I wrote the messages section.",
-			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Json, Firebase, webpack and npm.",
+			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Json, Firebase, webpack and npm",
 			"available": true,
 			"url": "https://github.com/nss-evening-cohort-8/nutshell-pecans",
 			"githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-pecans"
 		},
 		"project5": {
-			"title": "Thrones",
-			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/Thrones/master/Images/Screenshot.png",
-			"description": "This was app was a code-a-long we did in class.  We did this as an example project for using Json, and modulated javascript components.  The app allows users to sort characters by house and click on a character for an expanded view.",
-			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Jason, Firebase, webpack and npm.",
+			"title": "Donut Den Order Book",
+			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/DonutDen/master/src/images/screenshot3.jpg",
+			"description": "This project was my back-end capstone.  It allows any user to create orders that are submitted into the order book.  Registered users, employees in this case, can access the the orders in the app, and search for specific orders as needed.",
+			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Jason, Firebase, webpack and npm, React, Sass, .Net, SQL",
 			"available": true,
-			"url": "https://github.com/TimothyHarley/Thrones",
-			"githubUrl": "https://github.com/TimothyHarley/Thrones"
+			"url": "https://github.com/TimothyHarley/DonutDen",
+			"githubUrl": "https://github.com/TimothyHarley/DonutDen"
 		},
 		"project1": {
 			"title": "Life Experience",
 			"screenshot": "https://raw.githubusercontent.com/TimothyHarley/life-experience/master/src/images/Screenshot.png",
 			"description": "This project is my front-end capstone.  It gives the user a list of healthy habits from five different categories.  Each habit completed rewards experience points.  Get enough experience points in a category, and the user levels up.",
-			"technologiesUsed": "React, HTML, CSS, Jquery, Version Control with Github, Jason, Firebase, webpack and npm.",
+			"technologiesUsed": "React, HTML, CSS, Jquery, Version Control with Github, Jason, Firebase, webpack and npm",
 			"available": true,
 			"url": "https://github.com/TimothyHarley/life-experience",
 			"githubUrl": "https://github.com/TimothyHarley/life-experience"
+		},
+		"project6": {
+			"title": "Parting Pets",
+			"screenshot": "https://raw.githubusercontent.com/partingpets/partingpets_fe/master/src/images/parting_pets_background.jpg",
+			"description": "This was my final group project.  It is an online store for pet funeral services and pet memorials.  Different levels of access are available to users if they are customers, admins, employees, or vendors.",
+			"technologiesUsed": "HTML, CSS, Jquery, Version Control with Github, Jason, Firebase, webpack and npm, React, Sass, .Net, SQL",
+			"available": true,
+			"url": "https://github.com/partingpets",
+			"githubUrl": "https://github.com/partingpets"
 		}
 	}
 }
