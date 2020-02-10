@@ -12,6 +12,10 @@ import react from '../../images/icons/react.png';
 import sass from '../../images/icons/sass.png';
 import webpack from '../../images/icons/webpack.png';
 import reddit from '../../images/icons/reddit.png';
+import csharp from '../../images/icons/c.png';
+import dotnet from '../../images/icons/DotNet.png';
+import sql from '../../images/icons/SQL.png';
+import vs from '../../images/icons/VisualStudio.png';
 
 const createTechPage = () => {
   const domString = `
@@ -25,14 +29,16 @@ const createTechPage = () => {
           <li><img id='javascript' /><br>JavaScript</li>
           <li><img id='jquery' /><br>JQuery</li>
           <li><img id='react' /><br>React</li>          
-        </ul>
-        <ul class='nav text-center'>
           <li><img id='npm' /><br>NPM</li>
           <li><img id='firebase' /><br>Firebase</li>
           <li><img id='css' /><br>css</li>
           <li><img id='reddit' /><br>Reddit</li>
           <li><img id='github' /><br>GitHub</li>
           <li><img id='webpack' /><br>Webpack</li>
+          <li><img id='csharp' /><br>C#</li>
+          <li><img id='dotnet' /><br>.Net</li>
+          <li><img id='sql' /><br>SQL</li>
+          <li><img id='vs' /><br>Visual Studio</li>
         </ul>
       </div>
   </div>
@@ -50,6 +56,10 @@ const createTechPage = () => {
   $('#sass').attr('src', sass);
   $('#webpack').attr('src', webpack);
   $('#reddit').attr('src', reddit);
+  $('#csharp').attr('src', csharp);
+  $('#dotnet').attr('src', dotnet);
+  $('#sql').attr('src', sql);
+  $('#vs').attr('src', vs);
 };
 
 export default createTechPage;
