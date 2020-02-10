@@ -6,14 +6,16 @@
     width: 71%;
     margin: 50px;
 
-    ul {
+    tr {
       margin-bottom: 50px;
 
-      li {
+      td {
         margin: 20px;
+        padding: 20px;
+        padding-top: 60px;
 
         img {
-          width: 128px;
+          width: 100%;
           height: auto;
         }
       }

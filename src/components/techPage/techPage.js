@@ -22,24 +22,30 @@ const createTechPage = () => {
   <div>
     <h3>These are some of the tools and Technologies that I've learned to use at Nashville Software School</h3>
       <div class='iconBox mx-auto'>
-        <ul class='nav text-center'>
-          <li><img id='html' /><br>html</li>
-          <li><img id='sass' /><br>Sass</li>
-          <li><img id='bootstrap' /><br>Bootstrap</li>
-          <li><img id='javascript' /><br>JavaScript</li>
-          <li><img id='jquery' /><br>JQuery</li>
-          <li><img id='react' /><br>React</li>          
-          <li><img id='npm' /><br>NPM</li>
-          <li><img id='firebase' /><br>Firebase</li>
-          <li><img id='css' /><br>css</li>
-          <li><img id='reddit' /><br>Reddit</li>
-          <li><img id='github' /><br>GitHub</li>
-          <li><img id='webpack' /><br>Webpack</li>
-          <li><img id='csharp' /><br>C#</li>
-          <li><img id='dotnet' /><br>.Net</li>
-          <li><img id='sql' /><br>SQL</li>
-          <li><img id='vs' /><br>Visual Studio</li>
-        </ul>
+        <table class='nav text-center'>
+          <tbody>
+            <tr>
+              <td><img id='html' /><br>html</td>
+              <td><img id='sass' /><br>Sass</td>
+              <td><img id='bootstrap' /><br>Bootstrap</td>
+              <td><img id='javascript' /><br>JavaScript</td>
+              <td><img id='jquery' /><br>JQuery</td>
+              <td><img id='react' /><br>React</td>          
+              <td><img id='npm' /><br>NPM</td>
+              <td><img id='firebase' /><br>Firebase</td>
+            </tr>
+            <tr>
+              <td><img id='css' /><br>css</td>
+              <td><img id='reddit' /><br>Reddit</td>
+              <td><img id='github' /><br>GitHub</td>
+              <td><img id='webpack' /><br>Webpack</td>
+              <td><img id='csharp' /><br>C#</td>
+              <td><img id='dotnet' /><br>.Net</td>
+              <td><img id='sql' /><br>SQL</td>
+              <td><img id='vs' /><br>Visual Studio</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
   </div>
   `;
