@@ -9,7 +9,7 @@ import parallax5 from '../../images/parallax/NEWBackground5.png';
 import mountains from '../../images/mountains.png';
 
 const createParallax = () => {
-  if ($(window).width() >= 800) {
+  if ($(window).width() >= 1000) {
     const domString = `
       <img id="parallax1" class="img-fluid max-width: 100% parallax__layer parallax__layer--1" alt="Responsive image">
       <img id="parallax2" class="img-fluid max-width: 100% parallax__layer parallax__layer--2" alt="Responsive image">

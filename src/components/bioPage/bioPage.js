@@ -1,14 +1,14 @@
 import $ from 'jquery';
 import './bioPage.scss';
-import timAndLogan from '../../images/timAndLogan.jpg';
+import timHeadshot from '../../images/timOfficial.jpg';
 
 const createBioPage = () => {
   const domString = `
   <div class="col-6">
-    <img id="timAndLogan" class="img-fluid max-width: 100% shadow" alt="Tim and Logan">
+    <img id="timHeadshot" class="img-fluid max-width: 100% shadow" alt="Tim">
   </div>
   <div class="col-6">
-    <p class="indented">For the past decade, I have been a cook at Nashville's famous Donut Den.  The best part of that job is that at the end of the day, I can step back and admire the work I've finished.  The worst part of that job is that I've peaked.  
+    <p class="indented">For over a decade, I have been a cook at Nashville's famous Donut Den.  The best part of that job is that at the end of the day, I can step back and admire the work I've finished.  The worst part of that job is that I've peaked.  
     There wasn't anything left for me to learn.  I learned a little coding recreationly and quickly found that I enjoyed it.  Just like 
     cooking I could admire my finished product.  Unlike working in a bakery, however, I could continue to learn and discover new things indefinitely in software coding.  I decided it was time for a career change. </p>
     <br/>
@@ -18,7 +18,7 @@ const createBioPage = () => {
   </div>
   `;
   $('#bioPage').html(domString);
-  $('#timAndLogan').attr('src', timAndLogan);
+  $('#timHeadshot').attr('src', timHeadshot);
 };
 
 export default createBioPage;
