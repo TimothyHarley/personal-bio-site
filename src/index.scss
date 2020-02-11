@@ -9,10 +9,11 @@ body {
 }
 
  .parallax {
-    perspective: 1px;
+    perspective: 1.5px;
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    -ms-perspective-origin-x: 100%;
   }
   .parallax__layer {
     position: absolute;
@@ -20,6 +21,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    -ms-transform-origin-x: 100%;
   }
 
   .parallax__layer--5 {
