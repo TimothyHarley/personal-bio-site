@@ -1,15 +1,25 @@
 nav a{
+    transition: 750ms ease;
     color: #2C293A;
+}
+
+nav i{
+    transition: 750ms ease;
+    color: #2C293A;
+}
+
+nav{
+    transition: 750ms ease;
 }
 
 nav.scrolled a{ 
     color: #a199c6;
 }
 
-nav i{
-    color: #2C293A;
-}
-
 nav.scrolled i{
     color: #a199c6;
+}
+
+nav.scrolledMore{
+    background-color: #2C293A;
 }

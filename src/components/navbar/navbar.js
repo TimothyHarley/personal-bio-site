@@ -46,13 +46,9 @@ const createNavbar = () => {
   `;
   $('#navbar').html(domString);
 
-  // $(window).scroll(() => {
-  //   $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
-  //   console.log('test');
-  // });
-
   $('div.parallax').scroll(() => {
     $('nav').toggleClass('scrolled', $('div.parallax').scrollTop() > 400);
+    $('nav').toggleClass('scrolledMore', $('div.parallax').scrollTop() > 730);
   });
 
   navbarEvents();
