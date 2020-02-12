@@ -4,9 +4,11 @@ import './navbar.scss';
 const navbarEvents = () => {
   $('.nav-link').on('click', (e) => {
     if (e.target.id === 'bioButton') {
+      e.preventDefault();
       $('#bioPage').children().show();
       $('#technologiesPage').hide();
       $('#projectsPage').hide();
+      $('div.parallax').animate({ scrollTop: $('#bioPage').offset().top }, 2000);
     } else if (e.target.id === 'techButton') {
       $('#bioPage').children().hide();
       $('#technologiesPage').show();
