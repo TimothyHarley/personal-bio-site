@@ -21,10 +21,10 @@ const navbarEvents = () => {
 
 const createNavbar = () => {
   const domString = `
-  <nav class="navbar navbar-expand-lg navbar-dark bg-rgb 60, 37, 73 fixed-top shadow-sm">
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
     <a class="navbar-brand" href="#">Timothy Harley</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
@@ -45,6 +45,16 @@ const createNavbar = () => {
   </nav>
   `;
   $('#navbar').html(domString);
+
+  // $(window).scroll(() => {
+  //   $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
+  //   console.log('test');
+  // });
+
+  $('div.parallax').scroll(() => {
+    $('nav').toggleClass('scrolled', $('div.parallax').scrollTop() > 400);
+  });
+
   navbarEvents();
 };
 
