@@ -18,7 +18,6 @@ const navbarEvents = () => {
     } else if (e.target.id === 'timHarley') {
       e.preventDefault();
       $('div.parallax').animate({ scrollTop: $('#bioPage').offset().top }, 8000);
-      console.log('click');
     }
   });
 };
