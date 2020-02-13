@@ -2,13 +2,11 @@ import $ from 'jquery';
 import './navbar.scss';
 
 const navbarEvents = () => {
-  $('.nav-link').on('click', (e) => {
+  $('.navbar').on('click', (e) => {
     if (e.target.id === 'bioButton') {
-      e.preventDefault();
       $('#bioPage').children().show();
       $('#technologiesPage').hide();
       $('#projectsPage').hide();
-      $('div.parallax').animate({ scrollTop: $('#bioPage').offset().top }, 2000);
     } else if (e.target.id === 'techButton') {
       $('#bioPage').children().hide();
       $('#technologiesPage').show();
@@ -17,6 +15,10 @@ const navbarEvents = () => {
       $('#bioPage').children().hide();
       $('#technologiesPage').hide();
       $('#projectsPage').show();
+    } else if (e.target.id === 'timHarley') {
+      e.preventDefault();
+      $('div.parallax').animate({ scrollTop: $('#bioPage').offset().top }, 8000);
+      console.log('click');
     }
   });
 };
@@ -24,7 +26,7 @@ const navbarEvents = () => {
 const createNavbar = () => {
   const domString = `
   <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
-    <a class="navbar-brand" href="#">Timothy Harley</a>
+    <a id="timHarley" class="navbar-brand" href="#">Timothy Harley</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
