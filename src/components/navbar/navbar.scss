@@ -23,3 +23,45 @@ nav.scrolled i{
 nav.scrolledMore{
     background-color: #2C293A;
 }
+
+#timHarley {
+    // text-shadow: 0 0 10px darkslateblue,
+    // 0 0 10px darkslateblue,
+    // 0 0 10px darkslateblue,
+    // 0 0  darkslateblue,
+    // 0 0  darkslateblue,
+    // 0 0 5px darkslateblue,
+    // 0 0 5px darkslateblue;
+
+    animation: attn .5s 4 alternate;
+    animation-delay: 1s;
+}
+
+@keyframes attn {
+    0% {
+        text-shadow: none;
+        color: #a199c6;
+    }
+    25% {
+        text-shadow: 0 0 5px darkslateblue;
+        color: #a199c6;
+    }
+    50% {
+        text-shadow: 0 0 5px darkslateblue,
+        0 0 5px darkslateblue;
+        color: #fff;
+    }
+    75% {
+        text-shadow: 0 0 5px darkslateblue,
+        0 0 5px darkslateblue,
+        0 0 10px darkslateblue;
+        color: #fff;
+    }
+    100% {
+        text-shadow: 0 0 5px darkslateblue,
+        0 0 5px darkslateblue,
+        0 0 10px darkslateblue,
+        0 0 10px darkslateblue;
+        color: #fff;
+    }
+}
