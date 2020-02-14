@@ -40,23 +40,28 @@ nav.scrolledMore{
 @keyframes attn {
     0% {
         text-shadow: none;
+        color: #a199c6;
     }
     25% {
         text-shadow: 0 0 5px darkslateblue;
+        color: #a199c6;
     }
     50% {
         text-shadow: 0 0 5px darkslateblue,
         0 0 5px darkslateblue;
+        color: #fff;
     }
     75% {
         text-shadow: 0 0 5px darkslateblue,
         0 0 5px darkslateblue,
         0 0 10px darkslateblue;
+        color: #fff;
     }
     100% {
         text-shadow: 0 0 5px darkslateblue,
         0 0 5px darkslateblue,
         0 0 10px darkslateblue,
         0 0 10px darkslateblue;
+        color: #fff;
     }
 }
