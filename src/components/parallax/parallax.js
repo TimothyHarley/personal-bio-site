@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import './parallax.scss';
 
-import parallax1 from '../../images/parallax/NEWBackground1.png';
+import parallax1 from '../../images/parallax/NewBackground1new.png';
 import parallax2 from '../../images/parallax/NEWBackground2.png';
 import parallax3 from '../../images/parallax/NEWBackground3.png';
 import parallax4 from '../../images/parallax/NEWBackground4.png';
